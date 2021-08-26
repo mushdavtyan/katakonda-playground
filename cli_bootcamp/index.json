@@ -1,8 +1,8 @@
 {
   "title": "Business Development Group",
   "description": "Lesson-1 Linux Basics ",
-  "difficulty": "beginner",
-  "time": "60 minutes",
+  "difficulty": "Սկսնակ",
+  "time": "60 րոպե",
   "details": {
     "steps": [
       { "title": "Տնային աշխատանքի մասին", "text": "/markdown/00_frontmatter.md"},
