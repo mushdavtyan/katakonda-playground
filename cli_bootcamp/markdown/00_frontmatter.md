@@ -1,22 +1,19 @@
+Այս տնային աշխատանքը ամբողջությամբ լինելու է անգլերեն լեզվով։ Աշխատանքի մեջ ներառված են դասի ընթացքում սովորած linux-ի հիմնական հրամանները, ինչպես նաև այլ հրամաններ, որոնց հետ կծանոթանաք տնային աշխատանքը կատարելու ընթացքում։
+Ձեզ հասանելի է լիարժեք linux ubuntu տերմինալ, որի մեջ կարող եք հավաքել հրամաններ և տեսնել արդյունքները։
 
-Command-line examples that you are meant to type into a terminal window, and the results of those examples, will be shown in a grey code block, e.g.
-
-```bash
-ls -lrh
-```
-
-## Terminal Integration
+## Աշխատանք  տերմինալի  հետ
 You can also send code directly to the terminal. These code snippets or code blocks will be formatted as follow:
 
-Allow a code block to be executed `some-command`{{execute}}
+Հրամանները կարելի է հավաքել ինչպես copy/paste -ի միջոցով՝ `some-command`{{copy}}  
+այնպես էլ սեղմելով նրանց վրա։ `some-command`{{execute}}  Այս տեսքով գրված հրամանների վրա սեղմելով հրամանը ավտոմատ կերպով կտեղադրվի տերմինալում։
 
-Allow a code block to be copied `some-command`{{copy}}
-
-Sometimes the accompanying text will include a reference to a Unix command. Any such text will also be in a constant-width, boxed font. E.g.
+Երբեմն ուղեկցող տեքստը կներառի հղում Unix հրամանին: Նման տեքստ կլինեն տարբերվող տեսքով և տառատեսակով: Օրինակ՝ 
 
 >Type the `pwd` command.
 
-From time to time this documentation will contain [web links][] to pages that will help you find out more about certain Unix commands. Usually, the _first_ mention of a command or function will be a hyperlink to Wikipedia. Important or critical points will be styled like so:
+Ժամանակ առ ժամանակ նյութերը կպարունակեն [վեբ հղումներ][]  դեպի էջեր, որոնք կօգնեն ձեզ ավելին մանրամասն ծանոթանալ որոշ Unix հրամանների մասին: Սովորաբար, հրամանի կամ ֆունկցիայի մասին առաջին հիշատակումը կլինի հիպերհղում Վիքիպեդիայի համար: 
+
+Կարևոր կամ կրիտիկական կետերը ձևավորված կլինեն այսպես.
 
 >***This is an important point!***
 
@@ -24,10 +21,14 @@ From time to time this documentation will contain [web links][] to pages that wi
 
 ****
 
->**IMPORTANT: Please run the following command before proceeding!!!!**
+>**ՇԱՏ ԿԱՐԵՎՈՐ Է: Խնդրում  ենք անպայման  գործարկե ք այս հրամանը սկսելուց առաջ**
 
-If you are not already set as USER `learner`, run the following commands:- 
+Քանի որ համակարգում որպես օգտագործող դուք հանդես եք գալու որպես USER `learner`, գործարկե՜ք այս հրամանը:- 
 
 `sudo -i -u learner && source .bashrc && clear`{{execute}}
 
 ****
+
+# Ցանկացած հարց ունենալու  դեպքում , անկախ օրվա ժամից կարող եք կապ հաստատել  ինձ հետ messenger ծրագրով։
+
+# Գործարկելուց  հետո սեղմեք continue՝ սկսելու  համար։ Մաղթում եմ պրոդուկտիվ  ուսուցում։  
