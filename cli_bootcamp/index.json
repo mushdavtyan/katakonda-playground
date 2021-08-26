@@ -5,7 +5,7 @@
   "time": "60 minutes",
   "details": {
     "steps": [
-      { "title": "How to read this tutorial", "text": "/markdown/00_frontmatter.md"},
+      { "title": "Տնային աշխատանքի մասին", "text": "/markdown/00_frontmatter.md"},
       { "title": "01. Your first Unix command", "text": "/markdown/01_first_command.md"},
       { "title": "02: The Unix tree", "text": "/markdown/02_the_tree.md"},
       { "title": "03: Finding out where you are", "text": "/markdown/03_finding_yourself.md"},
@@ -52,7 +52,7 @@
     "uilayout": "editor-terminal",
     "uisettings": "bash",
     "uieditorpath": "/home/learner/",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+    "uimessage1": "\u001b[32mLesson 1 - Linux Basics.\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu"
