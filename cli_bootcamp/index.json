@@ -2,7 +2,7 @@
   "title": "Business Development Group",
   "description": "Devops level basic / Lesson-1 Linux Basics",
   "difficulty": "Beginner",
-  "time": "60 minutes",
+  "time": "6000 minutes",
   "details": {
     "steps": [
       { "title": "Տնային աշխատանքի մասին", "text": "/markdown/00_frontmatter.md"},
